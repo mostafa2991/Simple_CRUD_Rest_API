@@ -31,7 +31,7 @@ public class CricketController {
 	@Autowired
 	CricketerRepository cricketerRepository;
 	
-	@GetMapping("/api/cricketer/{id}")
+	@GetMapping("/cricketer/{id}")
 	public PagedResources<Cricketer> getCricketer(@PathVariable("id") Long id, Pageable pageable ,
 												  PagedResourcesAssembler pagedResourcesAssembler) {
 		Page<Cricketer> cricketerPage = cricketerRepository.findById(id,pageable);
@@ -39,13 +39,13 @@ public class CricketController {
 		return result;
 	}
 
-	@GetMapping("/api/cricketers/")
+	@GetMapping("/cricketer/")
 	public ResponseEntity<List<Cricketer>> getAllCricketers() {
 		ArrayList<Cricketer >cricketersList = (ArrayList<Cricketer>) cricketerService.getAllPlayers();
 		return new ResponseEntity<List<Cricketer>>(cricketersList, HttpStatus.OK);
 	}
 	
-	@PostMapping("/api/cricketer/")
+	@PostMapping("/cricketer/")
 	@CacheEvict(value = "cricketers", allEntries=true)
 	public ResponseEntity<Cricketer> addCricketer(@RequestBody Cricketer cricketer) {
 		System.out.print(cricketer);
@@ -57,7 +57,7 @@ public class CricketController {
 		return new ResponseEntity<Cricketer>(cricketer, HttpStatus.OK);
 	}
 	
-	@PutMapping("/api/cricketer/{id}")
+	@PutMapping("/cricketer/{id}")
 	@CacheEvict(value = "cricketers", allEntries=true)
 	public ResponseEntity<Cricketer> updateCricketer(@PathVariable("id") Long id, @RequestBody Cricketer cricketer) {
 		Cricketer cCricketer = cricketerService.findById(id);
@@ -69,7 +69,7 @@ public class CricketController {
 	}
 
 	@CacheEvict(value = "cricketers", allEntries=true)
-	@DeleteMapping("/api/cricketer/{id}")
+	@DeleteMapping("/cricketer/{id}")
 	public ResponseEntity<String> deleteCricketer(@PathVariable("id") Long id) {
 		Cricketer cCricketer = cricketerService.findById(id);
 		cricketerRepository.delete(cCricketer);

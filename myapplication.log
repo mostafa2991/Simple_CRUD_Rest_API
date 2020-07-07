@@ -1,0 +1,619 @@
+2020-07-07 00:02:53.659  INFO 61600 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-07 00:02:53.667  INFO 61600 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 00:02:53.669  INFO 61600 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 00:02:53.671  INFO 61600 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-07 00:02:53.690  INFO 61600 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-07 15:25:34.247  INFO 71376 --- [main] com.example.RestApiApplication           : Starting RestApiApplication on DESKTOP-N01AM1U with PID 71376 (started by compu city in C:\Users\compu city\git\Spring-Boot-REST-API)
+2020-07-07 15:25:34.259  INFO 71376 --- [main] com.example.RestApiApplication           : No active profile set, falling back to default profiles: default
+2020-07-07 15:25:36.619  INFO 71376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-07 15:25:36.761  INFO 71376 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115ms. Found 1 repository interfaces.
+2020-07-07 15:25:37.287  INFO 71376 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bb3e439c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 15:25:37.323  INFO 71376 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$3abe90ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 15:25:38.118  INFO 71376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-07 15:25:38.251  INFO 71376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-07 15:25:38.252  INFO 71376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-07-07 15:25:38.268  INFO 71376 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\compu city\AppData\Local\Microsoft\WindowsApps;C:\Users\compu city\AppData\Roaming\npm;C:\Users\compu city\AppData\Local\Programs\Microsoft VS Code\bin;E:\sts-3.9.12.RELEASE;;.]
+2020-07-07 15:25:38.636  INFO 71376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-07 15:25:38.636 DEBUG 71376 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-07-07 15:25:38.637  INFO 71376 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4215 ms
+2020-07-07 15:25:38.878 DEBUG 71376 --- [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2020-07-07 15:25:38.879 DEBUG 71376 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2020-07-07 15:25:39.087  INFO 71376 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 5.2.4 by Boxfuse
+2020-07-07 15:25:39.089  INFO 71376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-07 15:25:39.423  INFO 71376 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-07 15:25:39.427  INFO 71376 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/restapi (MySQL 8.0)
+2020-07-07 15:25:39.561  INFO 71376 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.035s)
+2020-07-07 15:25:39.577  INFO 71376 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `restapi`: 1
+2020-07-07 15:25:39.577  INFO 71376 --- [main] o.f.core.internal.command.DbMigrate      : Schema `restapi` is up to date. No migration necessary.
+2020-07-07 15:25:45.246  INFO 71376 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 15:25:47.020 DEBUG 71376 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2020-07-07 15:25:47.262  INFO 71376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 15:25:47.307 DEBUG 71376 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-07 15:25:47.369  WARN 71376 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-07 15:25:47.430 DEBUG 71376 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2020-07-07 15:25:47.467 DEBUG 71376 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-07 15:25:47.493 DEBUG 71376 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-07 15:25:47.591  WARN 71376 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-07-07 15:25:48.202  INFO 71376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-07 15:25:48.206  INFO 71376 --- [main] com.example.RestApiApplication           : Started RestApiApplication in 14.568 seconds (JVM running for 15.894)
+2020-07-07 15:25:48.353  INFO 71376 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 15:25:48.354  INFO 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-07 15:25:48.354 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-07 15:25:48.383 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-07 15:25:48.383  INFO 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
+2020-07-07 15:25:48.435 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/]
+2020-07-07 15:25:48.437 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2020-07-07 15:25:48.497 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-07-07 15:25:48.578 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [links: [<http://localhost:8080/cricketers{?page,size,sort}>;rel="cricketers", <http://localhost:8080 (truncated)...]
+2020-07-07 15:25:48.620 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 15:25:48.622 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/]
+2020-07-07 15:25:48.771 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/favicon.ico]
+2020-07-07 15:25:48.772 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2020-07-07 15:25:48.773 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []]
+2020-07-07 15:25:48.825 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 15:25:48.826 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/favicon.ico]
+2020-07-07 15:25:57.804 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/1]
+2020-07-07 15:25:57.804 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/1", parameters={}
+2020-07-07 15:25:57.812 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:25:57.814 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:25:57.814 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:25:57.815 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/1]
+2020-07-07 15:25:57.817 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:25:57.821 DEBUG 71376 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:25:57.863 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:25:57.870 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:26:15.056 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer]
+2020-07-07 15:26:15.057 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/cricketer", parameters={}
+2020-07-07 15:26:15.063 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:26:15.065 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:26:15.065 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:26:15.065 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer]
+2020-07-07 15:26:15.065 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:26:15.066 DEBUG 71376 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:26:15.068 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:26:15.068 DEBUG 71376 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:26:20.448 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 15:26:20.448 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 15:26:20.454 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:26:20.456 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:26:20.456 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:26:20.456 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 15:26:20.456 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:26:20.457 DEBUG 71376 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:26:20.460 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:26:20.460 DEBUG 71376 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:26:22.582 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 15:26:22.582 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 15:26:22.586 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:26:22.588 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:26:22.588 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:26:22.588 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 15:26:22.589 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:26:22.589 DEBUG 71376 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:26:22.591 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:26:22.591 DEBUG 71376 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:26:46.463 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/api/cricketers]
+2020-07-07 15:26:46.464 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/cricketers", parameters={}
+2020-07-07 15:26:46.470 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:26:46.472 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:26:46.472 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:26:46.472 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/api/cricketers]
+2020-07-07 15:26:46.473 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:26:46.473 DEBUG 71376 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:26:46.475 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:26:46.475 DEBUG 71376 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:26:48.726 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/api/cricketers]
+2020-07-07 15:26:48.726 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/cricketers", parameters={}
+2020-07-07 15:26:48.731 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:26:48.732 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:26:48.732 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:26:48.732 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/api/cricketers]
+2020-07-07 15:26:48.732 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:26:48.733 DEBUG 71376 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:26:48.735 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:26:48.735 DEBUG 71376 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:26:49.485 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/api/cricketers]
+2020-07-07 15:26:49.485 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/cricketers", parameters={}
+2020-07-07 15:26:49.489 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:26:49.490 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:26:49.490 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:26:49.490 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/api/cricketers]
+2020-07-07 15:26:49.490 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:26:49.491 DEBUG 71376 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:26:49.492 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:26:49.493 DEBUG 71376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:26:51.150 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/api/cricketers]
+2020-07-07 15:26:51.151 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/cricketers", parameters={}
+2020-07-07 15:26:51.155 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 15:26:51.156 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 15:26:51.156 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 15:26:51.156 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/api/cricketers]
+2020-07-07 15:26:51.156 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 15:26:51.157 DEBUG 71376 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 15:26:51.158 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 15:26:51.159 DEBUG 71376 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 15:27:02.023 DEBUG 71376 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/api/cricketers/]
+2020-07-07 15:27:02.023 DEBUG 71376 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/cricketers/", parameters={}
+2020-07-07 15:27:02.024 DEBUG 71376 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.example.model.Cricketer>> com.example.web.controller.CricketController.getAllCricketers()
+2020-07-07 15:27:02.429 DEBUG 71376 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-07 15:27:02.429 DEBUG 71376 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.model.Cricketer@62282524, com.example.model.Cricketer@1eb03d2d, com.example.model.Crick (truncated)...]
+2020-07-07 15:27:02.437 DEBUG 71376 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 15:27:02.437 DEBUG 71376 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/api/cricketers/]
+2020-07-07 15:29:59.760  INFO 71376 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-07 15:29:59.763  INFO 71376 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 15:29:59.765  INFO 71376 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 15:29:59.768  INFO 71376 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-07 15:29:59.792  INFO 71376 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-07 15:30:04.722  INFO 80880 --- [main] com.example.RestApiApplication           : Starting RestApiApplication on DESKTOP-N01AM1U with PID 80880 (started by compu city in C:\Users\compu city\git\Spring-Boot-REST-API)
+2020-07-07 15:30:04.724  INFO 80880 --- [main] com.example.RestApiApplication           : No active profile set, falling back to default profiles: default
+2020-07-07 15:30:05.855  INFO 80880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-07 15:30:05.946  INFO 80880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85ms. Found 1 repository interfaces.
+2020-07-07 15:30:06.332  INFO 80880 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dabd3953] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 15:30:06.368  INFO 80880 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$5a3d8685] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 15:30:06.829  INFO 80880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-07 15:30:06.854  INFO 80880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-07 15:30:06.855  INFO 80880 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-07-07 15:30:06.861  INFO 80880 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\compu city\AppData\Local\Microsoft\WindowsApps;C:\Users\compu city\AppData\Roaming\npm;C:\Users\compu city\AppData\Local\Programs\Microsoft VS Code\bin;E:\sts-3.9.12.RELEASE;;.]
+2020-07-07 15:30:06.983  INFO 80880 --- [main] o.a.c.c.C.[.[localhost].[/cricketer]     : Initializing Spring embedded WebApplicationContext
+2020-07-07 15:30:06.984 DEBUG 80880 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-07-07 15:30:06.984  INFO 80880 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2187 ms
+2020-07-07 15:30:07.151 DEBUG 80880 --- [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2020-07-07 15:30:07.152 DEBUG 80880 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2020-07-07 15:30:07.293  INFO 80880 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 5.2.4 by Boxfuse
+2020-07-07 15:30:07.295  INFO 80880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-07 15:30:07.576  INFO 80880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-07 15:30:07.580  INFO 80880 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/restapi (MySQL 8.0)
+2020-07-07 15:30:07.645  INFO 80880 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.016s)
+2020-07-07 15:30:07.658  INFO 80880 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `restapi`: 1
+2020-07-07 15:30:07.659  INFO 80880 --- [main] o.f.core.internal.command.DbMigrate      : Schema `restapi` is up to date. No migration necessary.
+2020-07-07 15:30:08.536  INFO 80880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 15:30:09.247 DEBUG 80880 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2020-07-07 15:30:09.410  INFO 80880 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 15:30:09.441 DEBUG 80880 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-07 15:30:09.465  WARN 80880 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-07 15:30:09.516 DEBUG 80880 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2020-07-07 15:30:09.539 DEBUG 80880 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-07 15:30:09.551 DEBUG 80880 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-07 15:30:09.619  WARN 80880 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-07-07 15:30:10.163  INFO 80880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cricketer'
+2020-07-07 15:30:10.166  INFO 80880 --- [main] com.example.RestApiApplication           : Started RestApiApplication in 5.717 seconds (JVM running for 6.46)
+2020-07-07 15:32:20.597  INFO 80880 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[localhost].[/cricketer]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 15:32:20.598  INFO 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-07 15:32:20.598 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-07 15:32:20.618 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-07 15:32:20.618  INFO 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-07-07 15:32:20.626 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/cricketers/]
+2020-07-07 15:32:20.628 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/cricketers/", parameters={}
+2020-07-07 15:32:20.631 DEBUG 80880 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.List<com.example.model.Cricketer>> com.example.web.controller.CricketController.getAllCricketers()
+2020-07-07 15:32:20.751 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-07 15:32:20.752 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[com.example.model.Cricketer@547fd7e2, com.example.model.Cricketer@3b80c81d, com.example.model.Crick (truncated)...]
+2020-07-07 15:32:20.791 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 15:32:20.792 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/cricketers/]
+2020-07-07 15:33:00.564 DEBUG 80880 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/cricketers/1]
+2020-07-07 15:33:00.565 DEBUG 80880 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/cricketers/1", parameters={}
+2020-07-07 15:33:00.717 DEBUG 80880 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-07-07 15:33:00.719 DEBUG 80880 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Resource { content: com.example.model.Cricketer@2c3f4b05, links: [<http://localhost:8080/cricketer/c (truncated)...]
+2020-07-07 15:33:00.750 DEBUG 80880 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 15:33:00.750 DEBUG 80880 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/cricketers/1]
+2020-07-07 15:33:08.482 DEBUG 80880 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/cricketers/2]
+2020-07-07 15:33:08.482 DEBUG 80880 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/cricketers/2", parameters={}
+2020-07-07 15:33:08.496 DEBUG 80880 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-07-07 15:33:08.497 DEBUG 80880 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Resource { content: com.example.model.Cricketer@1a052766, links: [<http://localhost:8080/cricketer/c (truncated)...]
+2020-07-07 15:33:08.498 DEBUG 80880 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 15:33:08.498 DEBUG 80880 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/cricketers/2]
+2020-07-07 16:14:00.918 DEBUG 80880 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/cricketers/2]
+2020-07-07 16:14:00.918 DEBUG 80880 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/cricketers/2", parameters={}
+2020-07-07 16:14:00.930 DEBUG 80880 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-07-07 16:14:00.931 DEBUG 80880 --- [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Resource { content: com.example.model.Cricketer@f18005c, links: [<http://localhost:8080/cricketer/cr (truncated)...]
+2020-07-07 16:14:00.932 DEBUG 80880 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 16:14:00.933 DEBUG 80880 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/cricketers/2]
+2020-07-07 16:14:02.109 DEBUG 80880 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/cricketers/2]
+2020-07-07 16:14:02.110 DEBUG 80880 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/cricketers/2", parameters={}
+2020-07-07 16:14:02.119 DEBUG 80880 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-07-07 16:14:02.120 DEBUG 80880 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Resource { content: com.example.model.Cricketer@476eb39d, links: [<http://localhost:8080/cricketer/c (truncated)...]
+2020-07-07 16:14:02.121 DEBUG 80880 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 16:14:02.121 DEBUG 80880 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/cricketers/2]
+2020-07-07 16:14:13.253 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/cricketers/3]
+2020-07-07 16:14:13.253 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/cricketers/3", parameters={}
+2020-07-07 16:14:13.266 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json]
+2020-07-07 16:14:13.266 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Resource { content: com.example.model.Cricketer@73482175, links: [<http://localhost:8080/cricketer/c (truncated)...]
+2020-07-07 16:14:13.268 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 16:14:13.268 DEBUG 80880 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/cricketers/3]
+2020-07-07 17:29:33.333 DEBUG 80880 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/cricketers/3]
+2020-07-07 17:29:33.334 DEBUG 80880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/cricketers/3", parameters={}
+2020-07-07 17:29:33.344 DEBUG 80880 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/hal+json', given [*/*] and supported [application/hal+json]
+2020-07-07 17:29:33.345 DEBUG 80880 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Resource { content: com.example.model.Cricketer@61684b6b, links: [<http://localhost:8080/cricketer/c (truncated)...]
+2020-07-07 17:29:33.346 DEBUG 80880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 17:29:33.346 DEBUG 80880 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/cricketers/3]
+2020-07-07 20:04:19.018  INFO 80880 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-07 20:04:19.021  INFO 80880 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 20:04:19.022  INFO 80880 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 20:04:19.034  INFO 80880 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-07 20:04:19.042  INFO 80880 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-07 20:04:42.944  INFO 79856 --- [main] com.example.RestApiApplication           : Starting RestApiApplication on DESKTOP-N01AM1U with PID 79856 (started by compu city in C:\Users\compu city\git\Spring-Boot-REST-API)
+2020-07-07 20:04:42.946  INFO 79856 --- [main] com.example.RestApiApplication           : No active profile set, falling back to default profiles: default
+2020-07-07 20:04:43.583  INFO 79856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-07 20:04:43.659  INFO 79856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71ms. Found 1 repository interfaces.
+2020-07-07 20:04:44.022  INFO 79856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0c36a56] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 20:04:44.058  INFO 79856 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$2043b788] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 20:04:44.394  INFO 79856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-07 20:04:44.416  INFO 79856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-07 20:04:44.416  INFO 79856 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-07-07 20:04:44.422  INFO 79856 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\compu city\AppData\Local\Microsoft\WindowsApps;C:\Users\compu city\AppData\Roaming\npm;C:\Users\compu city\AppData\Local\Programs\Microsoft VS Code\bin;E:\sts-3.9.12.RELEASE;;.]
+2020-07-07 20:04:44.533  INFO 79856 --- [main] o.a.c.c.C.[.[localhost].[/cricketer]     : Initializing Spring embedded WebApplicationContext
+2020-07-07 20:04:44.533 DEBUG 79856 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-07-07 20:04:44.533  INFO 79856 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1551 ms
+2020-07-07 20:04:44.664 DEBUG 79856 --- [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2020-07-07 20:04:44.664 DEBUG 79856 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2020-07-07 20:04:44.794  INFO 79856 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 5.2.4 by Boxfuse
+2020-07-07 20:04:44.796  INFO 79856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-07 20:04:45.147  INFO 79856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-07 20:04:45.151  INFO 79856 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/restapi (MySQL 8.0)
+2020-07-07 20:04:45.237  INFO 79856 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.019s)
+2020-07-07 20:04:45.254  INFO 79856 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `restapi`: 1
+2020-07-07 20:04:45.255  INFO 79856 --- [main] o.f.core.internal.command.DbMigrate      : Schema `restapi` is up to date. No migration necessary.
+2020-07-07 20:04:46.038  INFO 79856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 20:04:46.710 DEBUG 79856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2020-07-07 20:04:46.841  INFO 79856 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 20:04:46.865 DEBUG 79856 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-07 20:04:46.889  WARN 79856 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-07 20:04:46.928 DEBUG 79856 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2020-07-07 20:04:46.949 DEBUG 79856 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-07 20:04:46.960 DEBUG 79856 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-07 20:04:47.019  WARN 79856 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-07-07 20:04:47.569  INFO 79856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/cricketer'
+2020-07-07 20:04:47.572  INFO 79856 --- [main] com.example.RestApiApplication           : Started RestApiApplication in 4.881 seconds (JVM running for 5.689)
+2020-07-07 20:06:36.214  INFO 79856 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/cricketer]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 20:06:36.215  INFO 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-07 20:06:36.215 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-07 20:06:36.235 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-07 20:06:36.235  INFO 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 20 ms
+2020-07-07 20:06:36.245 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:06:36.247 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:06:36.265 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 20:06:36.269 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 20:06:36.270 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 20:06:36.272 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 20:06:36.275 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/cricketer/error", parameters={}
+2020-07-07 20:06:36.278 DEBUG 79856 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 20:06:36.309 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 20:06:36.312 DEBUG 79856 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 20:07:10.498  INFO 79856 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-07 20:07:10.501  INFO 79856 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-07 20:07:10.502  INFO 79856 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 20:07:10.505  INFO 79856 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-07 20:07:10.521  INFO 79856 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-07 20:07:15.332  INFO 92512 --- [main] com.example.RestApiApplication           : Starting RestApiApplication on DESKTOP-N01AM1U with PID 92512 (started by compu city in C:\Users\compu city\git\Spring-Boot-REST-API)
+2020-07-07 20:07:15.334  INFO 92512 --- [main] com.example.RestApiApplication           : No active profile set, falling back to default profiles: default
+2020-07-07 20:07:15.981  INFO 92512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-07-07 20:07:16.055  INFO 92512 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces.
+2020-07-07 20:07:16.440  INFO 92512 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7e077d02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 20:07:16.486  INFO 92512 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$fd87ca34] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-07 20:07:16.833  INFO 92512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-07 20:07:16.859  INFO 92512 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-07 20:07:16.859  INFO 92512 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2020-07-07 20:07:16.865  INFO 92512 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\compu city\AppData\Local\Microsoft\WindowsApps;C:\Users\compu city\AppData\Roaming\npm;C:\Users\compu city\AppData\Local\Programs\Microsoft VS Code\bin;E:\sts-3.9.12.RELEASE;;.]
+2020-07-07 20:07:16.975  INFO 92512 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-07 20:07:16.975 DEBUG 92512 --- [main] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-07-07 20:07:16.975  INFO 92512 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1588 ms
+2020-07-07 20:07:17.108 DEBUG 92512 --- [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2020-07-07 20:07:17.109 DEBUG 92512 --- [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'logFilter' configured for use
+2020-07-07 20:07:17.240  INFO 92512 --- [main] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 5.2.4 by Boxfuse
+2020-07-07 20:07:17.242  INFO 92512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-07 20:07:17.514  INFO 92512 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-07 20:07:17.517  INFO 92512 --- [main] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://localhost:3306/restapi (MySQL 8.0)
+2020-07-07 20:07:17.582  INFO 92512 --- [main] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.017s)
+2020-07-07 20:07:17.597  INFO 92512 --- [main] o.f.core.internal.command.DbMigrate      : Current version of schema `restapi`: 1
+2020-07-07 20:07:17.598  INFO 92512 --- [main] o.f.core.internal.command.DbMigrate      : Schema `restapi` is up to date. No migration necessary.
+2020-07-07 20:07:18.423  INFO 92512 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-07 20:07:19.092 DEBUG 92512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/**/favicon.ico] in 'faviconHandlerMapping'
+2020-07-07 20:07:19.214  INFO 92512 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-07 20:07:19.236 DEBUG 92512 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-07 20:07:19.268  WARN 92512 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-07 20:07:19.307 DEBUG 92512 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 7 mappings in 'requestMappingHandlerMapping'
+2020-07-07 20:07:19.331 DEBUG 92512 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-07 20:07:19.342 DEBUG 92512 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-07 20:07:19.404  WARN 92512 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-07-07 20:07:19.892  INFO 92512 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-07 20:07:19.895  INFO 92512 --- [main] com.example.RestApiApplication           : Started RestApiApplication in 4.815 seconds (JVM running for 5.625)
+2020-07-07 20:07:26.397  INFO 92512 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-07 20:07:26.398  INFO 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-07 20:07:26.399 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2020-07-07 20:07:26.417 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-07 20:07:26.417  INFO 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-07-07 20:07:26.428 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:07:26.430 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:07:26.435 DEBUG 92512 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:07:26.667 DEBUG 92512 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/xhtml+xml', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:07:26.668 DEBUG 92512 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@10520084, links: [] }], me (truncated)...]
+2020-07-07 20:07:26.689 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Could not instantiate JAXBContext for class [class org.springframework.hateoas.PagedResources]: Implementation of JAXB-API has not been found on module path or classpath.; nested exception is javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+2020-07-07 20:07:26.691 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 20:07:26.697 ERROR 92512 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Could not instantiate JAXBContext for class [class org.springframework.hateoas.PagedResources]: Implementation of JAXB-API has not been found on module path or classpath.; nested exception is javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]] with root cause
+
+java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader.loadClass(TomcatEmbeddedWebappClassLoader.java:70) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at javax.xml.bind.ServiceLoaderUtil.nullSafeLoadClass(ServiceLoaderUtil.java:122) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ServiceLoaderUtil.safeLoadClass(ServiceLoaderUtil.java:155) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:276) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:421) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at org.springframework.http.converter.xml.AbstractJaxb2HttpMessageConverter.getJaxbContext(AbstractJaxb2HttpMessageConverter.java:112) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.xml.AbstractJaxb2HttpMessageConverter.createMarshaller(AbstractJaxb2HttpMessageConverter.java:51) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter.writeToResult(Jaxb2RootElementHttpMessageConverter.java:180) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.xml.AbstractXmlHttpMessageConverter.writeInternal(AbstractXmlHttpMessageConverter.java:84) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:262) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2020-07-07 20:07:26.701 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 20:07:26.707 DEBUG 92512 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 20:07:26.731 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 20:07:26.746 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2020-07-07 20:08:11.237 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/2]
+2020-07-07 20:08:11.238 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/2", parameters={}
+2020-07-07 20:08:11.239 DEBUG 92512 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:08:11.244 DEBUG 92512 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/xhtml+xml', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:08:11.245 DEBUG 92512 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@6d66efc2, links: [] }], me (truncated)...]
+2020-07-07 20:08:11.249 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Could not instantiate JAXBContext for class [class org.springframework.hateoas.PagedResources]: Implementation of JAXB-API has not been found on module path or classpath.; nested exception is javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]
+2020-07-07 20:08:11.250 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/2]
+2020-07-07 20:08:11.251 ERROR 92512 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Could not instantiate JAXBContext for class [class org.springframework.hateoas.PagedResources]: Implementation of JAXB-API has not been found on module path or classpath.; nested exception is javax.xml.bind.JAXBException: Implementation of JAXB-API has not been found on module path or classpath.
+ - with linked exception:
+[java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory]] with root cause
+
+java.lang.ClassNotFoundException: com.sun.xml.internal.bind.v2.ContextFactory
+	at org.springframework.boot.web.embedded.tomcat.TomcatEmbeddedWebappClassLoader.loadClass(TomcatEmbeddedWebappClassLoader.java:70) ~[spring-boot-2.1.3.RELEASE.jar:2.1.3.RELEASE]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1186) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at javax.xml.bind.ServiceLoaderUtil.nullSafeLoadClass(ServiceLoaderUtil.java:122) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ServiceLoaderUtil.safeLoadClass(ServiceLoaderUtil.java:155) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:276) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:421) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at org.springframework.http.converter.xml.AbstractJaxb2HttpMessageConverter.getJaxbContext(AbstractJaxb2HttpMessageConverter.java:112) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.xml.AbstractJaxb2HttpMessageConverter.createMarshaller(AbstractJaxb2HttpMessageConverter.java:51) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.xml.Jaxb2RootElementHttpMessageConverter.writeToResult(Jaxb2RootElementHttpMessageConverter.java:180) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.xml.AbstractXmlHttpMessageConverter.writeInternal(AbstractXmlHttpMessageConverter.java:84) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:227) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:119) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.AbstractRequestLoggingFilter.doFilterInternal(AbstractRequestLoggingFilter.java:262) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.16.jar:9.0.16]
+	at java.base/java.lang.Thread.run(Thread.java:830) ~[na:na]
+
+2020-07-07 20:08:11.252 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 20:08:11.253 DEBUG 92512 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-07-07 20:08:11.255 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2020-07-07 20:08:11.255 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2020-07-07 20:10:19.096 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/2]
+2020-07-07 20:10:19.097 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/2", parameters={}
+2020-07-07 20:10:19.099 DEBUG 92512 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:10:19.106 DEBUG 92512 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/hal+json', given [*/*] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:10:19.107 DEBUG 92512 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@2fa3f88, links: [] }], met (truncated)...]
+2020-07-07 20:10:19.153 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:10:19.153 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/2]
+2020-07-07 20:25:36.539 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/3]
+2020-07-07 20:25:36.540 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/3", parameters={}
+2020-07-07 20:25:36.540 DEBUG 92512 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:25:36.546 DEBUG 92512 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/hal+json', given [*/*] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:25:36.547 DEBUG 92512 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@20183a75, links: [] }], me (truncated)...]
+2020-07-07 20:25:36.555 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:25:36.555 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/3]
+2020-07-07 20:28:54.457 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/3]
+2020-07-07 20:28:54.458 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/3", parameters={}
+2020-07-07 20:28:54.459 DEBUG 92512 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:28:54.463 DEBUG 92512 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:28:54.463 DEBUG 92512 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@7f70d9e3, links: [] }], me (truncated)...]
+2020-07-07 20:28:54.466 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:28:54.466 DEBUG 92512 --- [http-nio-8080-exec-1] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/3]
+2020-07-07 20:29:01.627 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:29:01.627 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:29:01.628 DEBUG 92512 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:29:01.632 DEBUG 92512 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:29:01.633 DEBUG 92512 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@1f147c6b, links: [] }], me (truncated)...]
+2020-07-07 20:29:01.636 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:29:01.636 DEBUG 92512 --- [http-nio-8080-exec-3] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 20:29:55.778 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:29:55.778 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:29:55.780 DEBUG 92512 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:29:55.785 DEBUG 92512 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:29:55.785 DEBUG 92512 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@57abf43, links: [] }], met (truncated)...]
+2020-07-07 20:29:55.788 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:29:55.793 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 20:29:57.379 DEBUG 92512 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:29:57.379 DEBUG 92512 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:29:57.380 DEBUG 92512 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:29:57.384 DEBUG 92512 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:29:57.385 DEBUG 92512 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@a9e7cf, links: [] }], meta (truncated)...]
+2020-07-07 20:29:57.387 DEBUG 92512 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:29:57.387 DEBUG 92512 --- [http-nio-8080-exec-6] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 20:30:09.649 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:30:09.649 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:30:09.650 DEBUG 92512 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:30:09.654 DEBUG 92512 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:30:09.655 DEBUG 92512 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@7becacb3, links: [] }], me (truncated)...]
+2020-07-07 20:30:09.657 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:30:09.657 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 20:30:38.511 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer]
+2020-07-07 20:30:38.511 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/cricketer", parameters={}
+2020-07-07 20:30:38.517 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 20:30:38.519 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 20:30:38.520 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 20:30:38.520 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer]
+2020-07-07 20:30:38.520 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 20:30:38.521 DEBUG 92512 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-07 20:30:38.522 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json]
+2020-07-07 20:30:38.522 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Jul 07 20:30:38 EET 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+2020-07-07 20:30:38.528 DEBUG 92512 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 20:30:41.642 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer]
+2020-07-07 20:30:41.642 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/cricketer", parameters={}
+2020-07-07 20:30:41.645 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2020-07-07 20:30:41.646 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2020-07-07 20:30:41.646 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2020-07-07 20:30:41.646 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer]
+2020-07-07 20:30:41.646 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2020-07-07 20:30:41.647 DEBUG 92512 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-07-07 20:30:41.647 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json]
+2020-07-07 20:30:41.648 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue Jul 07 20:30:41 EET 2020, status=404, error=Not Found, message=No message available,  (truncated)...]
+2020-07-07 20:30:41.648 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2020-07-07 20:30:45.678 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:30:45.680 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:30:45.680 DEBUG 92512 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:30:45.684 DEBUG 92512 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:30:45.685 DEBUG 92512 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@5a35eead, links: [] }], me (truncated)...]
+2020-07-07 20:30:45.687 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:30:45.687 DEBUG 92512 --- [http-nio-8080-exec-9] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 20:36:00.783 DEBUG 92512 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/1]
+2020-07-07 20:36:00.784 DEBUG 92512 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/1", parameters={}
+2020-07-07 20:36:00.784 DEBUG 92512 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 20:36:00.788 DEBUG 92512 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 20:36:00.788 DEBUG 92512 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@16f66534, links: [] }], me (truncated)...]
+2020-07-07 20:36:00.790 DEBUG 92512 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 20:36:00.791 DEBUG 92512 --- [http-nio-8080-exec-10] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/1]
+2020-07-07 21:32:17.777  WARN 92512 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m30s170ms444µs700ns).
+2020-07-07 21:32:57.867 DEBUG 92512 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/4]
+2020-07-07 21:32:57.868 DEBUG 92512 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/4", parameters={}
+2020-07-07 21:32:57.868 DEBUG 92512 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 21:32:57.875 DEBUG 92512 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/hal+json', given [*/*] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 21:32:57.876 DEBUG 92512 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@f4e273f, links: [] }], met (truncated)...]
+2020-07-07 21:32:57.878 DEBUG 92512 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 21:32:57.878 DEBUG 92512 --- [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/4]
+2020-07-07 21:41:05.534 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/2]
+2020-07-07 21:41:05.534 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/2", parameters={}
+2020-07-07 21:41:05.535 DEBUG 92512 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 21:41:05.547 DEBUG 92512 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/hal+json', given [*/*] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 21:41:05.547 DEBUG 92512 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@1489431e, links: [] }], me (truncated)...]
+2020-07-07 21:41:05.549 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 21:41:05.550 DEBUG 92512 --- [http-nio-8080-exec-4] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/2]
+2020-07-07 21:41:30.517 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/3]
+2020-07-07 21:41:30.518 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/3", parameters={}
+2020-07-07 21:41:30.518 DEBUG 92512 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 21:41:30.524 DEBUG 92512 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 21:41:30.524 DEBUG 92512 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@706c0159, links: [] }], me (truncated)...]
+2020-07-07 21:41:30.526 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 21:41:30.527 DEBUG 92512 --- [http-nio-8080-exec-5] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/3]
+2020-07-07 21:41:42.574 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : Before request [uri=/cricketer/3]
+2020-07-07 21:41:42.574 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/cricketer/3", parameters={}
+2020-07-07 21:41:42.575 DEBUG 92512 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to public org.springframework.hateoas.PagedResources<com.example.model.Cricketer> com.example.web.controller.CricketController.getCricketer(java.lang.Long,org.springframework.data.domain.Pageable,org.springframework.data.web.PagedResourcesAssembler)
+2020-07-07 21:41:42.579 DEBUG 92512 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, application/*+json] and supported [application/hal+json, application/json, application/schema+json, application/json-patch+json, application/merge-patch+json, application/x-spring-data-verbose+json, application/x-spring-data-compact+json, application/json, application/json, application/*+json, application/json, application/*+json, application/xml, text/xml, application/*+xml]
+2020-07-07 21:41:42.579 DEBUG 92512 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [PagedResource { content: [Resource { content: com.example.model.Cricketer@5d1fa156, links: [] }], me (truncated)...]
+2020-07-07 21:41:42.581 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2020-07-07 21:41:42.581 DEBUG 92512 --- [http-nio-8080-exec-8] o.s.w.f.CommonsRequestLoggingFilter      : REQUEST DATA : uri=/cricketer/3]
